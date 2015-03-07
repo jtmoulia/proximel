@@ -14,7 +14,7 @@ RPC interface that works great with elixir right out of the box:
 This repo includes examples of:
 
 - Loading an elixir(/any beam) module into a running node
-- A [company-mode](https://github.com/massemanet/distel) autocomplete
+- A [company-mode](http://company-mode.github.io/) autocomplete
   backend
 
 ## Usage
@@ -22,7 +22,8 @@ This repo includes examples of:
 You're going to need to have distel installed.
 
 From a shell, boot an erlang virtual machine with a distributed erlang
-node name. Include `-S mix` if it's an interactive shell:
+node name. Include `-S mix` if it's an interactive shell for a mix
+project:
 
 ```shell
 $ iex --name proximel@127.0.0.1 [-S mix]
