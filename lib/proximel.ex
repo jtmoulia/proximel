@@ -4,6 +4,9 @@ defmodule Proximel do
   """
 
 
+  @doc """
+  Expand the expression to a list of possible completions.
+  """
   @spec expand(String.t | [integer]) :: [[integer]]
   def expand(expr) when is_binary(expr) do
     expr |> String.to_char_list |> expand
