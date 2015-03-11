@@ -43,11 +43,3 @@ might cause performance issues at the moment. You can add it to the
 list via `(add-to-list 'company-backends 'proximel-company)`. To force
 it's usage you can wipe out the list
 `(setq company-backends '(proximel-company))`.
-
-## Issues
-
-The current version of distel doesn't support the relatively recent
-[git-blame for context] R17 Erlang maps. On the plus side, it's
-[easy to support them](https://github.com/massemanet/distel/pull/47). On
-the negative side, distel hasn't taken a PR in a couple of months. So,
-do without maps or get on that bleeding edge.
